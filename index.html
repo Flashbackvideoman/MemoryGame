@@ -1,0 +1,38 @@
+<!doctype html>
+<!-- Memory Game -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Norm's Memory Game</title>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    
+<link rel="stylesheet" type="text/css" href="MemoryGame.css">
+</head>
+
+<body onload="pageInit()">
+
+<h1>Memory game</h1>
+
+    <div id="container">
+        <div id="outside-box">
+            <div class="row r1">
+                <div class="cell c1"></div><div class="cell c2"></div><div class="cell c3"></div><div class="cell c4"></div>
+            </div>
+            <div class="row r2">
+                <div class="cell c1"></div><div class="cell c2"></div><div class="cell c3"></div><div class="cell c4"></div>
+            </div>
+            <div class="row r3">
+                <div class="cell c1"></div><div class="cell c2"></div><div class="cell c3"></div><div class="cell c4"></div>
+            </div>
+            <div class="row r4">
+                <div class="cell c1"></div><div class="cell c2"></div><div class="cell c3"></div><div class="cell c4"></div>
+            </div>
+        </div>
+        <div>
+            <button id="newgame" onclick="newGame()">New Game</button>
+        </div>
+    </div>
+
+<script type="text/javascript" src="MemoryGame.js"></script>
+</body>
+</html>

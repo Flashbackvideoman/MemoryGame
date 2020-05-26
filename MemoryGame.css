@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* Memory Game
+    by Norm Strassner
+    05/26/2020
+*/
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+}
+
+.row {
+    height: 100px;
+    width: auto;
+    
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #000;
+    display:inline-block;
+    font-size: 2em;
+    text-align: center;
+    background-color: blue;
+    position:relative;
+}
+
+span {
+    position: absolute;
+    margin-top: 30px;
+    color:black;
+}
+
+#newgame {
+    margin-top: 20px;
+    height: 60px;
+    width: 200px;
+    font-size: 2em;
+}
